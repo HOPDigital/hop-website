@@ -14,6 +14,7 @@ export default {
                 pink_hop: "#DD226D",
                 purple_hop: "#8C4CF5",
                 blur_hop: "#121632",
+                darker_blur_hop: "#0C0F23",
                 black_hop: "#1E1E1E",
             },
         },
