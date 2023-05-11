@@ -1,30 +1,45 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Introduction from './components/Introduction.vue';
+import TipSection from './components/TipSection.vue';
+import BuildingProduct from './components/BuildingProduct.vue';
+import Skills from "./components/Skills.vue";
+import WorkWithUs from "./components/WorkWithUs.vue";
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
-</template>
+    <Introduction />
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+    <TipSection>
+        <template v-slot:content>
+            <main class="flex flex-col py-36 justify-center items-center gap-7">
+                <span class="uppercase text-pink_hop font-semibold text-sm">
+                    Precisa de desenvolvedores de primeira linha?
+                </span>
+
+                <h2 class="text-[48px] font-extrabold text-white">
+                    Você está no lugar certo
+                </h2>
+
+                <p class="text-white w-[30%] text-center leading-[32px]">
+                    A Hop ajuda empreendedores a construir e lançar novos produtos e,
+                    ajuda as empresas em crescimento conectando equipes de desenvolvimento pronta para uso e começar a
+                    construir.
+                </p>
+            </main>
+        </template>
+    </TipSection>
+
+    <BuildingProduct />
+
+    <Skills />
+
+    <WorkWithUs />
+
+    <TipSection>
+        <template v-slot:content>
+            <main class="flex flex-col py-36 justify-center items-center">
+                <h1 class="text-white text-[48px] font-extrabold">TBC</h1>
+            </main>
+        </template>
+    </TipSection>
+</template>
