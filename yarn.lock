@@ -896,6 +896,11 @@ vite@^4.3.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
+vue-remix-icons@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vue-remix-icons/-/vue-remix-icons-3.0.0.tgz#ce7014bd277980440f774d7839779a6b340ca9bb"
+  integrity sha512-JCm3q76Um79VUmQSdbvyU93mjSCNJf8z8DlfBjU2bg88q2Hfrwx48p8KWYCdNd1T6ue/HOoni+hAGfm/StTGVA==
+
 vue@^3.2.47:
   version "3.2.47"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.47.tgz#3eb736cbc606fc87038dbba6a154707c8a34cff0"
