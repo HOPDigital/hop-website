@@ -3,7 +3,7 @@ import Introduction from './components/Introduction.component.vue';
 import TipSection from './components/TipSection.vue';
 import BuildingProduct from './components/BuildingProduct.component.vue';
 import Skills from "./components/Skills.component.vue";
-import WorkWithUs from "./components/WorkWithUs.vue";
+import WorkWithUs from "./components/WorkWithUs.component.vue";
 import LetsTalk from './components/LetsTalk.component.vue';
 </script>
 
