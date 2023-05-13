@@ -1,14 +1,16 @@
 <script setup>
-import Introduction from './components/Introduction.component.vue';
+
 import TipSection from './components/TipSection.vue';
-import BuildingProduct from './components/BuildingProduct.component.vue';
-import Skills from "./components/Skills.component.vue";
-import WorkWithUs from "./components/WorkWithUs.component.vue";
-import LetsTalk from './components/LetsTalk.component.vue';
+
+import Hero from './sections/Hero.section.vue';
+import BuildingProduct from './sections/BuildingProduct.section.vue';
+import Skills from "./sections/Skills.section.vue";
+import WorkWithUs from "./sections/WorkWithUs.section.vue";
+import LetsTalk from './sections/LetsTalk.section.vue';
 </script>
 
 <template>
-    <Introduction />
+    <Hero />
 
     <TipSection>
         <template v-slot:content>
