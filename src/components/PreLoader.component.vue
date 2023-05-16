@@ -12,7 +12,7 @@ export default {
         showToggle() {
             setTimeout(() => {
                 this.show = true
-            }, 2000)
+            }, 1000)
         }
     }
 }
