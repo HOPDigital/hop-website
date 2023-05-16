@@ -33,11 +33,11 @@
                         </li>
                         
                         <li>
-                            TBC
+                            Jest
                         </li>
                         
                         <li>
-                            TBC
+                            Docker
                         </li>
                     </ul>
                 </div>
