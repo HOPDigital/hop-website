@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col justify-center items-center bg-blur_hop w-full py-24">
+    <section class="flex flex-col justify-center items-center bg-blur_hop w-full py-24" id="contactus">
         <h1 class="text-3xl lg:text-[40px] text-purple_hop font-extrabold">
             Fale conosco
         </h1>
