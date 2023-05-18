@@ -6,23 +6,16 @@ on:
       - main
 
 jobs:
-  deploy:
+  build_vue:
     runs-on: ubuntu-latest
+    name: Build Vue 👷
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Configure Node
-        uses: actions/setup-node@v1
+      - id: build-vue
+        uses: xRealNeon/VuePagesAction@1.0.1
         with:
-          node-version: '16.x'
-
-      - name: Building Application 🚀
-        run: |
-          yarn  
-          yarn build
-      - name: Deploying to GitHub Pages 🚀
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          username: 'HOPDigital'
+          reponame: 'hop-webiste'
+          token: ${{ secrets.GITHUB_TOKEN }}
