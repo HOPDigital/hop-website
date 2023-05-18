@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-    <section class="flex justify-center h-full md:h-screen w-full bg-blur_hop">
+    <section class="flex justify-center h-full md:h-screen w-full bg-blur_hop" id="product">
         <main class="flex flex-col lg:flex-row justify-between items-center h-full px-8 py-20 lg:w-[80%]">
             <!-- Left Side Image -->
             <figure>

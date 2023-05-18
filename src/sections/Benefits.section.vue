@@ -30,7 +30,7 @@
 </script>
 
 <template>
-    <section class="flex flex-col justify-center items-center h-full lg:h-screen w-full bg-blur_hop p-8">
+    <section class="flex flex-col justify-center items-center h-full lg:h-screen w-full bg-blur_hop p-8" id="benefits">
         <div class="flex flex-col lg:w-[30%] text-center gap-y-8">
             <h1 class="text-4xl lg:text-[48px] text-purple_hop leading-[50px] lg:leading-[64px] font-extrabold">
                 Quando você trabalha com a Hop...

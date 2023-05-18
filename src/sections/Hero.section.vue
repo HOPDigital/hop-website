@@ -1,5 +1,5 @@
 <template>
-    <section class="flex justify-center h-full md:h-screen w-full bg-blur_hop">
+    <section class="flex justify-center h-full md:h-screen w-full bg-blur_hop" id="home">
         <main class="flex flex-col lg:flex-row justify-around items-center h-full px-8 py-20 lg:w-[80%]">
             <!-- Mobile Image -->
             <figure class="lg:hidden mb-6">
