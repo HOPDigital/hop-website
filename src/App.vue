@@ -1,17 +1,21 @@
 <script setup>
-
+import PreLoader from './components/PreLoader.component.vue';
+import NavBar from './components/NavBar.vue';
 import TipSection from './components/TipSection.vue';
 
 import Hero from './sections/Hero.section.vue';
 import BuildingProduct from './sections/BuildingProduct.section.vue';
 import Skills from "./sections/Skills.section.vue";
-import WorkWithUs from "./sections/WorkWithUs.section.vue";
+import Benefits from "./sections/Benefits.section.vue";
 import LetsTalk from './sections/LetsTalk.section.vue';
+import ContactUs from './sections/ContactUs.section.vue';
+import Footer from './sections/Footer.section.vue';
 </script>
 
 <template>
+    <PreLoader/>
+    <NavBar/>
     <Hero />
-
     <TipSection>
         <template v-slot:content>
             <main class="flex flex-col py-36 px-8 justify-center items-center gap-7">
@@ -31,15 +35,10 @@ import LetsTalk from './sections/LetsTalk.section.vue';
             </main>
         </template>
     </TipSection>
-
     <BuildingProduct />
-
     <Skills />
-
     <LetsTalk/>
-
-    <WorkWithUs />
-
+    <Benefits/>
     <TipSection>
         <template v-slot:content>
             <main class="flex flex-col py-36 justify-center items-center">
@@ -47,4 +46,6 @@ import LetsTalk from './sections/LetsTalk.section.vue';
             </main>
         </template>
     </TipSection>
+    <ContactUs/>
+    <Footer/>
 </template>
