@@ -10,13 +10,13 @@ export default {
 </script>
 
 <template>
-    <section class="flex justify-center h-full md:h-screen w-full bg-blur_hop" id="team">
+    <section class="flex justify-center h-full md:h-screen w-full bg-blur_hop p-8" id="team">
         <main class="flex flex-col justify-center items-center w-full">
-            <h1 class="text-purple_hop text-4xl md:text-[48px] font-extrabold">
+            <h1 class="text-purple_hop text-3xl md:text-[48px] font-extrabold mt-8">
                 Conheça nosso time
             </h1>
 
-            <h3 class="text-white text-md md:text-lg lg:w-[40%] text-center my-10">
+            <h3 class="text-white text-md md:text-lg leading-[32px] lg:w-[40%] text-center my-10">
                 Cada membro da equipe é de extrema importância, compartilhamos diversos conhecimentos para a melhor solução
                 do seu problema, veja quem somos:
             </h3>
