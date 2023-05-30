@@ -25,7 +25,7 @@ export default {
                 <div class="flex flex-col justify-center items-center">
                     <div
                         class="flex justfiy-center items-center h-[248px] rounded-full bg-gradient-to-b from-red_hop via-purple_hop to-darker_blur_hop p-1 mb-5">
-                        <img src="../assets/avatars/matt.png" title="Matheus Cruz - Photo" class="h-[238px] rounded-full" />
+                        <img src="../assets/avatars/matt.png" title="Matheus Cruz - Photo" class="h-[238px] rounded-full grayscale" />
                     </div>
 
                     <h2 class="text-2xl text-white font-semibold">Matheus Cruz</h2>
@@ -51,7 +51,7 @@ export default {
 
                     <div
                         class="flex justfiy-center items-center h-[248px] rounded-full bg-gradient-to-b from-red_hop via-purple_hop to-darker_blur_hop p-1 mb-5">
-                        <img src="../assets/avatars/andre.png" title="André Lara - Photo" class="h-[238px] rounded-full" />
+                        <img src="../assets/avatars/andre.png" title="André Lara - Photo" class="h-[238px] rounded-full grayscale" />
                     </div>
 
                     <h2 class="text-2xl text-white font-semibold">André Lara</h2>
