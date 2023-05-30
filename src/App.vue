@@ -14,8 +14,8 @@ import OurTeam from './sections/OurTeam.section.vue';
 </script>
 
 <template>
-    <PreLoader/>
-    <NavBar/>
+    <PreLoader />
+    <NavBar />
     <Hero />
     <TipSection>
         <template v-slot:content>
@@ -38,20 +38,26 @@ import OurTeam from './sections/OurTeam.section.vue';
     </TipSection>
     <BuildingProduct />
     <Skills />
-    <LetsTalk/>
-    <Benefits/>
+    <LetsTalk />
+    <Benefits />
 
     <TipSection>
         <template v-slot:content>
-            <main class="flex flex-col py-36 justify-center items-center">
-                <h1 class="text-white text-[48px] font-extrabold">TBC</h1>
+            <main class="flex flex-col md:flex-row py-36 justify-center items-center p-8 gap-10">
+                <h1 class="text-purple_hop text-3xl md:text-[40px] leading-[40px] md:leading-[52px] font-extrabold lg:w-[35%]">
+                    Obtenha seu produto de software construído com as <span class="text-pink_hop">melhores soluções</span>
+                </h1>
+
+                <p class="text-lg leading-[32px] font-normal text-white lg:w-[30%]">Conheça a empresa de desenvolvimento de software nearshore
+                    que constrói, testa, envia e mantém código de qualidade. Nosso processo garante que seu projeto seja
+                    concluído no melhor tempo possível!</p>
             </main>
         </template>
     </TipSection>
 
-    <OurTeam/>
+    <OurTeam />
 
-    <ContactUs/>
-        
-    <Footer/>
+    <ContactUs />
+
+    <Footer />
 </template>
