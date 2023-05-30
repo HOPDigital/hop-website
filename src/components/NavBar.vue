@@ -21,6 +21,10 @@ export default {
                     redirectTo: "#benefits"
                 },
                 {
+                    name: "Nosso time",
+                    redirectTo: "#team"
+                },
+                {
                     name: "Fale conosco",
                     redirectTo: "#contactus"
                 },

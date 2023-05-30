@@ -10,6 +10,7 @@ import Benefits from "./sections/Benefits.section.vue";
 import LetsTalk from './sections/LetsTalk.section.vue';
 import ContactUs from './sections/ContactUs.section.vue';
 import Footer from './sections/Footer.section.vue';
+import OurTeam from './sections/OurTeam.section.vue';
 </script>
 
 <template>
@@ -39,6 +40,7 @@ import Footer from './sections/Footer.section.vue';
     <Skills />
     <LetsTalk/>
     <Benefits/>
+
     <TipSection>
         <template v-slot:content>
             <main class="flex flex-col py-36 justify-center items-center">
@@ -46,6 +48,10 @@ import Footer from './sections/Footer.section.vue';
             </main>
         </template>
     </TipSection>
+
+    <OurTeam/>
+
     <ContactUs/>
+        
     <Footer/>
 </template>
