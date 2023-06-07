@@ -4,7 +4,7 @@
             <!-- Description -->
             <div class="flex flex-col justify-center items-center lg:justify-start lg:items-start lg:w-[50%]">
                 <h1
-                    class="text-4xl md:text-[48px] md:leading-[60px] lg:leading-[76px] text-purple_hop font-extrabold lg:w-[48%]">
+                    class="text-4xl md:text-[48px] md:leading-[60px] lg:leading-[76px] text-purple_hop font-extrabold lg:w-[48%] text-center lg:text-left">
                     Atrasado na contratação?
                 </h1>
 

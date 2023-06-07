@@ -14,8 +14,8 @@ export default {
 </script>
 
 <template>
-    <section class="flex justify-center h-full md:h-screen w-full bg-blur_hop" id="product">
-        <main class="flex flex-col lg:flex-row justify-between items-center h-full px-8 py-20 lg:w-[80%]">
+    <section class="flex justify-center h-full w-full bg-blur_hop" id="product">
+        <main class="flex flex-col lg:flex-row justify-between items-center h-full px-8 py-40 lg:w-[80%]">
             <!-- Left Side Image -->
             <figure>
                 <img src="../assets/building_product.png" />
@@ -23,7 +23,7 @@ export default {
 
             <!-- Description -->
             <div class="flex flex-col justify-center items-center lg:justify-start lg:items-start lg:w-[50%] mt-16 lg:mt-0">
-                <h1 class="text-4xl md:text-[48px] md:leading-[60px] lg:leading-[58px] text-purple_hop font-extrabold">
+                <h1 class="text-4xl md:text-[48px] md:leading-[60px] lg:leading-[58px] text-purple_hop font-extrabold text-center lg:text-left">
                     Construindo um novo produto?
                 </h1>
 
